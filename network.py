@@ -5,7 +5,7 @@ class NetWork:
 
     def __init__(self):
         self._client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self._server = "192.168.1.6"
+        self._server = "IPV4 HERE"
         self._port = 5555
         self._addr = (self._server, self._port)
         self._p = self.connect()
